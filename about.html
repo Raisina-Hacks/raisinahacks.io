@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RaisinaHacks</title>
+    <title>About | RaisinaHacks</title>
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
     <!-- Meta Tags for SEO -->
     <meta name="description" content="Tackle real world problems, build solutions and collaborate with like-minded individuals. Join us at the Raisina Hacks.">
@@ -34,48 +34,7 @@
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
 </head>
 <body class="relative">
-
-    <div id="main">
-        <div id="loader">
-            <h1 class="reveal flex gap-2 text-center" style="font-family: SpeedDemon;">
-                <span>Raisina</span><br/>
-                <span id="highlight">Hacks</span>
-                <!-- <span>coming</span>
-                <span>soon</span> -->
-            </h1>
-
-            <div class="absolute bottom-24 w-full flex-center">
-                <div class="w-[30px] h-[30px] bg-black border-white border-y-2 rounded-full animate-spin"></div>
-            </div>
-        </div>
-        <div id="green"></div>
-    </div>
-
-
-    <div id="modal" class="z-10 absolute scale-0 grid place-content-center backdrop-blur-md">
-        <div id="modal-dialog" class="z-10 opacity-0 bg-white shadow-xl rounded-xl pb-4 w-[95%] sm:w-1/2 lg:w-[1/5] lg:max-w-[600px] space-y-4 text-center mx-auto">
-            <div class="card-header sm:text-center border-b-2 border-black py-3">
-            <h2 class="font-bold text-xl">DISCLAIMER</h2>
-            </div>
-            <div class="px-3">
-                <p class="disclaimer">
-                    Raisina Hacks and the Raisina Hacking Community, collectively referred to herein as "Raisina Hacks," comprise a series of hackathons and events organized by students and professionals from various domains and regions within India. Raisina Hacks operates independently and is not affiliated with, endorsed by, or acting on behalf of any state, central, or foreign governmental agencies, entities, public policies, or government programs, either within or outside the territory of India.<br>
-
-                    Raisina Hacks does not solicit or require any form of payment or personal information, such as one-time passwords (OTPs), banking details, or other personal credentials. Official communications from Raisina Hacks are conducted exclusively through emails or phone calls from designated members and associates of Raisina Hacks.<br>
-
-                    Please be advised that partner programs, student-run communities, events, sponsors, etc., do not have the authority to communicate or act on behalf of Raisina Hacks or its community. Any communication purported to be from such sources should be considered unauthorized and treated with caution.<br>
-
-                    This disclaimer is intended to clarify the nature of the association and communication protocols of Raisina Hacks and to ensure transparency and trust with all participants and associated parties.<Br>
-                </p>
-            </div>
-            <button id="modal-close" onclick="closeModal()" class=" bg-black shadow-xl text-white px-4 py-2 rounded-xl hover:bg-white hover:text-black duration-300 hover:shadow-xl  ">
-                I understand
-            </button>
-        </div>
-    </div>
-
-
-    <main id="content" class="bg-black relative w-screen h-screen grid place-content-center">
+    <main id="content" class="bg-black relative w-screen min-h-screen  grid place-content-center">
         <!-- <img class="fixed -right-60 top-0" src="./images/decoration.svg" alt="decoration" /> -->
         <div class="w-52 fixed -top-10 -right-10 h-52 circle-gradient rounded-full blur-xl opacity-40"></div>
         <div class="fixed -bottom-16 -left-10">
@@ -85,7 +44,7 @@
     
         <nav class="fixed top-0 w-[90%] left-1/2 translate-x-[-50%]  py-1 flex items-center justify-between">
             <div>
-                <img src="./images/logo.svg" alt="raisina hacks logo" class="w-32 h-32">
+                <img src="./images/logo.svg" alt="raisina hacks logo" class="w-32 mt-2">
             </div>
             <div class="flex items-center gap-2">
                 <!-- <button class="btn px-4 py-2 rounded-xl border text-white font-semibold hover:scale-105 duration-300">
@@ -98,24 +57,18 @@
             </div>
         </nav>
     
-        <section class="w-[75%] md:w-auto mx-auto text-white space-y-6" id="">
-            <div class="space-y-4 flex flex-col items-center justify-center flex-wrap">
-                <div class="flex items-center justify-center">
-                     <img src="./images/logo.svg" class="w-[262px] lg:w-[600px]" alt="">
-                </div>
-                <p class="text-center">
-                    Tackle real world problems, build solutions and win exciting prizes. <br class="max-md:hidden" />Join us
-                    at the Raisina Hacks hackathon.
-                </p>
-            </div>
-    
-            <h2 class="hidden md:block text-3xl md:text-5xl xl:text-8xl uppercase" style="font-family: SpeedDemon;">
-                Coming Soon
-            </h2>
-            <button
-                class="block btn-join md:hidden btn px-4 py-2 rounded-xl bg-white text-black font-semibold hover:scale-105 duration-300">
-                Join Waitlist
-            </button>
+        <section class="max-md:mt-24 max-md:mb-16 w-[75%] px-8 py-8 w-[90%] md:min-w-[50vw] md:max-w-[50vw] bg-[#d9d9d9]/10 rounded-xl md:w-auto mx-auto text-white space-y-6" id="">
+           <h2 class="text-center text-2xl font-bold">
+                About Us
+           </h2>
+           <div class="space-y-4 text-gray-400">
+            <p>
+                <b>Raisina Hacks</b> is an upcoming community dedicated to organising a flagship hackathon and bringing like-minded people across India. We aspire to unite brilliant minds from diverse backgrounds to create groundbreaking solutions and drive transformative change.
+            </p>
+            <p>
+                Inspired by <b>Delhi's Raisina Hills</b>—a symbol of power, vision, and progress—we strive to create an environment where participants can showcase their skills, learn from their peers, network with industry experts, and gain invaluable experience to accelerate their careers.
+            </p>
+           </div>
         </section>
     
     
@@ -184,9 +137,8 @@
                 </a>
             </div>
             <div class="text-sm sm:text-md font-semibold">
-                <a href="/about">
-                <!-- <a href="https://raisinahacks.io/about"> -->
-                    About Us
+                <a href="/">
+                   Home
                 </a>
             </div>
         </footer>
